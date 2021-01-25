@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+[coronga] {
+    position: relative;
+    border: 5px solid dodgerblue;
+    height: 580px;
+    width: 1090px;
+    margin: 75px 160px;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+
+.corona {
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+}
+
+.par-de-seringas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seringa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.seringa .agulha {
+    height: 100px;
+    width: 3px;ß
+    background: #d6d6d6;
+    border: 2px solid #000;
+    
+}
+
+.seringa .corpo {
+    height: 100px;
+    width: 45px;
+    background:  #d6d6d6;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    opacity: 0.5;
+    border-radius: 20%;
+}
+
+.progresso {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: Pixel;
+    font-size: 70px;
+    z-index: 100;
+}

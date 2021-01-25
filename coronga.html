@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coronga</title>
+    <link rel="stylesheet" href="coronga.css">
+
+</head>
+<style>
+    * {
+           box-sizing: border-box;
+       }
+       
+        body{
+            margin: 0;
+            font-family: 'Oswald', sans-serif;
+            background-color: lightgrey;  
+        }
+
+        .cabecalho {
+            background-color: rgb(66, 66, 66);
+            height: 80px;
+            border-bottom: solid 5px rgb(32, 90, 197);
+            box-sizing: content-box ;
+        }
+
+        .logo {
+            display: inline-block;
+            height: 70px;
+            margin: 6px 10px;
+        }
+        .logo img {
+            height: 100%;
+        }
+    
+        .menu {
+            display: inline-block;
+            vertical-align: top;
+            padding: 25px;
+            height: 80px;
+        }
+
+        .menu ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .cabecalho a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 1.3em;
+        }
+
+        .menu a {
+            padding: 15px;
+        }
+    
+        
+        .menu a:hover,
+        .menu a.selected {
+            background-color: #4faddb;
+            color: #000;
+        }
+
+      
+        
+
+        @media(min-width: 679){
+            .menu-toggle{
+                display: none;
+            }
+        }
+    
+        @media(max-width: 680px) {
+            .autenticacao{
+                display:none
+            }
+        }
+</style>
+<header class="cabecalho">
+    <div class="logo">
+        <a href="#inicio">
+            <img src="./imgs/corongaVirus.jpg" alt="Logo">
+        </a>
+    </div>
+
+    </button>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<body class="conteudo">
+    <div coronga>
+
+    </div>
+    <script src="coronga.js"></script>
+</body>
+
+
+</html>
